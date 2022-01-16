@@ -1,4 +1,8 @@
-html, body { margin: 0; padding: 0; }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   min-height: 100vh;
@@ -28,26 +32,26 @@ footer {
 }
 
 .carousel-item:after {
-  content:"";
-  display:block;
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: #000000;
   opacity: 0.6;
 }
 
 .call-to-action {
-  background:#0086d2;
-  padding:40px 0;
+  background: #0086d2;
+  padding: 40px 0;
 }
 
 .btn {
   border-radius: 5px;
   margin: 21px 0 0 0;
-  font-weight:700;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -62,7 +66,8 @@ footer {
   background-size: cover;
 }
 
-.pt-5, .py-5 {
+.pt-5,
+.py-5 {
   color: white;
 }
 
